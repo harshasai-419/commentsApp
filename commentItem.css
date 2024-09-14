@@ -1,0 +1,112 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+/* Write your CSS here */
+.list-item {
+  list-style-type: none;
+}
+
+.para {
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 25px;
+  margin-right: 12px;
+}
+
+.para-con {
+  display: flex;
+}
+.comment1 {
+  color: #000000;
+  font-size: 15px;
+  margin: 12px;
+  margin-top: 40px;
+}
+.comment2 {
+  color: #000000;
+  font-size: 20px;
+  margin: 12px;
+  margin-left: 48px;
+  margin-bottom: 20px;
+}
+.image {
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+}
+.images-con {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+.hori-line2 {
+  width: 93%;
+  border-width: 1px;
+}
+.name {
+  color: #000000;
+  font-size: 28px;
+  font-weight: bold;
+}
+.inner-image-con {
+  display: flex;
+  padding: 5px;
+}
+.like-button {
+  border-width: 0px;
+  background-color: #ffffff;
+}
+
+@media (max-width: 767px) {
+  .name {
+    color: #000000;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 40px;
+  }
+  .comment1 {
+    color: #000000;
+    font-size: 15px;
+    margin: 12px;
+    margin-top: 40px;
+  }
+  .comment2 {
+    color: #000000;
+    font-size: 15px;
+    margin: 12px;
+    margin-left: 48px;
+    margin-bottom: 20px;
+  }
+}
