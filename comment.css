@@ -1,0 +1,99 @@
+/* Write your CSS here */
+.input-ele {
+  width: 100%;
+  border-width: 1px;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 10px;
+}
+.bg-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 50vh;
+  padding: 10px;
+}
+.text-area {
+  width: 100%;
+  border-width: 1px;
+  height: 40%;
+  margin: 10px;
+}
+.label-ele {
+  font-size: 15px;
+  color: #000000;
+  padding: 10px;
+}
+.head {
+  color: #000000;
+  font-weight: bold;
+  font-size: 46px;
+  margin-left: 7%;
+}
+.button {
+  background-color: #0284c7;
+  border-width: 0px;
+  border-radius: 4px;
+  padding: 10px;
+  width: 50%;
+  color: #ffffff;
+  margin: 10px;
+}
+.hori-line {
+  width: 90%;
+  border-width: 1px;
+}
+
+.count-comment {
+  background-color: #0284c7;
+  padding: 9px;
+  border-radius: 3px;
+  color: #ffffff;
+  margin-left: 6%;
+}
+.unordered-list {
+  margin-left: 2%;
+}
+.comment-para {
+  font-size: 20px;
+  font-weight: bold;
+}
+.comment-image {
+  width: 90%;
+}
+
+@media (max-width: 767px) {
+  .comment-image {
+    width: 40%;
+  }
+  .label-ele {
+    font-size: 12px;
+    color: #000000;
+    padding: 10px;
+  }
+  .button {
+    background-color: #0284c7;
+    border-width: 0px;
+    border-radius: 4px;
+    padding: 10px;
+    width: 80%;
+    color: #ffffff;
+    margin: 10px;
+  }
+  .bg-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding: 10px;
+  }
+  .top-image-con {
+    order: 1;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: center;
+  }
+  .top-comments-con {
+    order: 2;
+  }
+}
